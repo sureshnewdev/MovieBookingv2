@@ -12,7 +12,13 @@ builder.Services.AddSwaggerGen();
 
 builder.Services.Configure<DBSettings>(
     builder.Configuration.GetSection("FoodDatabase"));
-
+builder.Services.AddCors((setup) =>
+{
+    setup.AddPolicy("default", (options) =>
+    {
+        options.AllowAnyMethod().AllowAnyHeader().AllowAnyOrigin();
+    });
+});
 builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
     .AddJwtBearer(option =>
     {
@@ -83,6 +89,7 @@ app.UseHttpsRedirection();
 
 app.MapControllers();
 app.UseAuthentication();
+app.UseCors("default");
 app.UseAuthorization();
 
 app.Run();

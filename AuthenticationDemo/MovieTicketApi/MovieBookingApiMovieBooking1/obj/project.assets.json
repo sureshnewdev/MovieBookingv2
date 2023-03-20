@@ -8605,11 +8605,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Source\\AuthenticationDemo\\MovieTicketApi\\MovieBookingApiMovieBooking1\\MovieBookingApiMovieBooking1.csproj",
+      "projectUniqueName": "E:\\Source\\ToGit\\MovieBookingv2\\AuthenticationDemo\\MovieTicketApi\\MovieBookingApiMovieBooking1\\MovieBookingApiMovieBooking1.csproj",
       "projectName": "MovieBookingApiMovieBooking1",
-      "projectPath": "E:\\Source\\AuthenticationDemo\\MovieTicketApi\\MovieBookingApiMovieBooking1\\MovieBookingApiMovieBooking1.csproj",
+      "projectPath": "E:\\Source\\ToGit\\MovieBookingv2\\AuthenticationDemo\\MovieTicketApi\\MovieBookingApiMovieBooking1\\MovieBookingApiMovieBooking1.csproj",
       "packagesPath": "C:\\Users\\lenovo\\.nuget\\packages\\",
-      "outputPath": "E:\\Source\\AuthenticationDemo\\MovieTicketApi\\MovieBookingApiMovieBooking1\\obj\\",
+      "outputPath": "E:\\Source\\ToGit\\MovieBookingv2\\AuthenticationDemo\\MovieTicketApi\\MovieBookingApiMovieBooking1\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -8626,8 +8626,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "E:\\Source\\AuthenticationDemo\\MovieTicketApi\\MovieTicketApi\\MovieBookingApi.csproj": {
-              "projectPath": "E:\\Source\\AuthenticationDemo\\MovieTicketApi\\MovieTicketApi\\MovieBookingApi.csproj"
+            "E:\\Source\\ToGit\\MovieBookingv2\\AuthenticationDemo\\MovieTicketApi\\MovieTicketApi\\MovieBookingApi.csproj": {
+              "projectPath": "E:\\Source\\ToGit\\MovieBookingv2\\AuthenticationDemo\\MovieTicketApi\\MovieTicketApi\\MovieBookingApi.csproj"
             }
           }
         }

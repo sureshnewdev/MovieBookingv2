@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "rFE8eQtzLVWMvTWQyZ1l0+3MveiliVr5fOhCy8VngA2vJzazZT9/1ttFgWW7aeJxpNUOdCv0ldrFMmI2X+tZ9g==",
+  "dgSpecHash": "RBm2Y9prILUfFShBZskczIdppguStaYUm1/untGwdXZnHoR8ap8Z+XLiOcupCy0W/2u5QSUKSVv0hFLhIS+Q2w==",
   "success": true,
-  "projectFilePath": "E:\\Source\\AuthenticationDemo\\MovieTicketApi\\MovieBookingApiMovieBooking1\\MovieBookingApiMovieBooking1.csproj",
+  "projectFilePath": "E:\\Source\\ToGit\\MovieBookingv2\\AuthenticationDemo\\MovieTicketApi\\MovieBookingApiMovieBooking1\\MovieBookingApiMovieBooking1.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\lenovo\\.nuget\\packages\\azure.core\\1.3.0\\azure.core.1.3.0.nupkg.sha512",
     "C:\\Users\\lenovo\\.nuget\\packages\\coverlet.collector\\3.1.2\\coverlet.collector.3.1.2.nupkg.sha512",

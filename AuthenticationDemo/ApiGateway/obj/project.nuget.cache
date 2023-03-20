@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "D79RQfps3lC7V0G1Weq6IkteK/SBuQKLL/MCG8PkvJ8jm3HcV2eJvEZCoCYZxNj0JdT8FSTNTVQI2xr3iqoqNA==",
+  "dgSpecHash": "Ef7tTlW4fqCAcssFV34a/f2OACD4mHorjVr5o3xCJlfasOOQr648HEMRXQE2RALEOnORH49B/T5hlI1FfhHDLw==",
   "success": true,
-  "projectFilePath": "E:\\Source\\AuthenticationDemo\\ApiGateway\\ApiGateway.csproj",
+  "projectFilePath": "E:\\Source\\ToGit\\MovieBookingv2\\AuthenticationDemo\\ApiGateway\\ApiGateway.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\lenovo\\.nuget\\packages\\fluentvalidation\\9.3.0\\fluentvalidation.9.3.0.nupkg.sha512",
     "C:\\Users\\lenovo\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\6.0.1\\microsoft.aspnetcore.authentication.jwtbearer.6.0.1.nupkg.sha512",

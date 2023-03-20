@@ -587,11 +587,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Source\\AuthenticationDemo\\UserService\\UserService.csproj",
+      "projectUniqueName": "E:\\Source\\ToGit\\MovieBookingv2\\AuthenticationDemo\\UserService\\UserService.csproj",
       "projectName": "UserService",
-      "projectPath": "E:\\Source\\AuthenticationDemo\\UserService\\UserService.csproj",
+      "projectPath": "E:\\Source\\ToGit\\MovieBookingv2\\AuthenticationDemo\\UserService\\UserService.csproj",
       "packagesPath": "C:\\Users\\lenovo\\.nuget\\packages\\",
-      "outputPath": "E:\\Source\\AuthenticationDemo\\UserService\\obj\\",
+      "outputPath": "E:\\Source\\ToGit\\MovieBookingv2\\AuthenticationDemo\\UserService\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",

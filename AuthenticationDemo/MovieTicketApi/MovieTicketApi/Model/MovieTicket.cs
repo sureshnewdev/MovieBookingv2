@@ -3,14 +3,14 @@ using MongoDB.Bson.Serialization.Attributes;
 
 namespace FoodieApi.Model
 {
-    public class Foods
+    public class MovieTicket
     {
         [BsonId]
         [BsonRepresentation(BsonType.ObjectId)]
         public string? Id { get; set; }
 
-        public string FoodName { get; set; } = null!;
+        public string MovieName { get; set; } = null!;
 
-        public string FoodDesc { get; set; } = null!;
+        public string BookingDeails { get; set; } = null!;
     }
 }

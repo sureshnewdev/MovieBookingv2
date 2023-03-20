@@ -30,7 +30,7 @@ builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
 
 builder.Services.AddControllers();
 
-builder.Services.AddSingleton<FoodServices>();
+builder.Services.AddSingleton<MovieBookingServices>();
 
 
 builder.Services.AddAuthorization();

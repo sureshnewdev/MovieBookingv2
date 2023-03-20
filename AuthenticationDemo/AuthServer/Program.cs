@@ -7,7 +7,13 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddSingleton<ITokenService>(new TokenService());
-
+builder.Services.AddCors((setup) =>
+{
+    setup.AddPolicy("default", (options) =>
+    {
+        options.AllowAnyMethod().AllowAnyHeader().AllowAnyOrigin();
+    });
+});
 await using var app = builder.Build();
 
 app.UseHttpsRedirection();
@@ -15,9 +21,10 @@ app.UseHttpsRedirection();
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
-app.UseDeveloperExceptionPage();
-app.UseSwagger();
-app.UseSwaggerUI();
+    app.UseCors("default");
+    app.UseDeveloperExceptionPage();
+    app.UseSwagger();
+    app.UseSwaggerUI();
 }
 
 
@@ -52,7 +59,7 @@ app.MapPost("/validate", [AllowAnonymous] (UserValidationRequestModel request, H
 await app.RunAsync();
 
 
-internal record UserValidationRequestModel([Required]string UserName, [Required] string Password);
+internal record UserValidationRequestModel([Required] string UserName, [Required] string Password);
 
 internal interface ITokenService
 {

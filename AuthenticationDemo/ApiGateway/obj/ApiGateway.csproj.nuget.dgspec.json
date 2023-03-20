@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Source\\AuthenticationDemo\\ApiGateway\\ApiGateway.csproj": {}
+    "E:\\Source\\ToGit\\MovieBookingv2\\AuthenticationDemo\\ApiGateway\\ApiGateway.csproj": {}
   },
   "projects": {
-    "E:\\Source\\AuthenticationDemo\\ApiGateway\\ApiGateway.csproj": {
+    "E:\\Source\\ToGit\\MovieBookingv2\\AuthenticationDemo\\ApiGateway\\ApiGateway.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Source\\AuthenticationDemo\\ApiGateway\\ApiGateway.csproj",
+        "projectUniqueName": "E:\\Source\\ToGit\\MovieBookingv2\\AuthenticationDemo\\ApiGateway\\ApiGateway.csproj",
         "projectName": "ApiGateway",
-        "projectPath": "E:\\Source\\AuthenticationDemo\\ApiGateway\\ApiGateway.csproj",
+        "projectPath": "E:\\Source\\ToGit\\MovieBookingv2\\AuthenticationDemo\\ApiGateway\\ApiGateway.csproj",
         "packagesPath": "C:\\Users\\lenovo\\.nuget\\packages\\",
-        "outputPath": "E:\\Source\\AuthenticationDemo\\ApiGateway\\obj\\",
+        "outputPath": "E:\\Source\\ToGit\\MovieBookingv2\\AuthenticationDemo\\ApiGateway\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",

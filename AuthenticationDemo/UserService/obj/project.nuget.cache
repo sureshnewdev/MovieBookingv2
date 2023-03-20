@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "p/mCMHrq1iaC1dIP+JfM4ONQ677+KYFJlI1cFXa4bDf5bCmY45Lq9cThg0VExIJBJo+Cv8Xa6T4Qz7ewTOT1NA==",
+  "dgSpecHash": "AUcgo1AQTMtXH/AqT2hzPO8Ue/862Fqe471enZvWjhWFhM9WZifyUBJiLzUK/euJ5Q/sIL7gTRPG0FaYHjXM4Q==",
   "success": true,
-  "projectFilePath": "E:\\Source\\AuthenticationDemo\\UserService\\UserService.csproj",
+  "projectFilePath": "E:\\Source\\ToGit\\MovieBookingv2\\AuthenticationDemo\\UserService\\UserService.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\lenovo\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\6.0.1\\microsoft.aspnetcore.authentication.jwtbearer.6.0.1.nupkg.sha512",
     "C:\\Users\\lenovo\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",

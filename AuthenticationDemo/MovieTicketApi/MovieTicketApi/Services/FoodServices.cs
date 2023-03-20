@@ -4,43 +4,43 @@ using MongoDB.Driver;
 
 namespace FoodieApi.Services
 {
-    public class FoodServices
+    public class MovieBookingServices
     {
-        private readonly IMongoCollection<Foods> foodcollection;
-        public FoodServices(IOptions<DBSettings> dbSettings)
+        private readonly IMongoCollection<MovieTicket> mBcollection;
+        public MovieBookingServices(IOptions<DBSettings> dbSettings)
         {
-            var foodConnection = new MongoClient(dbSettings.Value.ConnectionString);
-            var foodb = foodConnection.GetDatabase(dbSettings.Value.DatabaseName);
-            foodcollection = foodb.GetCollection<Foods>(dbSettings.Value.CollectionName);
+            var mBConnection = new MongoClient(dbSettings.Value.ConnectionString);
+            var moviedb = mBConnection.GetDatabase(dbSettings.Value.DatabaseName);
+            mBcollection = moviedb.GetCollection<MovieTicket>(dbSettings.Value.CollectionName);
         }
 
         //public async Task<List<Foods>> GetAsync()
         //    => await foodcollection.Find(_ => true).ToListAsync();
 
 
-        public async Task<List<Foods>> GettheFood()
+        public async Task<List<MovieTicket>> GetMovieTickets()
         {
-            return await foodcollection.Find(_ => true).ToListAsync();
+            return await mBcollection.Find(_ => true).ToListAsync();
         }
 
-        public async Task InsertFoodDetails(Foods foods)
+        public async Task InsertMovieTicket(MovieTicket movieTicket)
         {
-            await foodcollection.InsertOneAsync(foods);
+            await mBcollection.InsertOneAsync(movieTicket);
         }
 
-        public async Task<Foods> GetById(string id)
+        public async Task<MovieTicket> GetById(string id)
         {
-           return await foodcollection.Find(x => x.Id == id).FirstOrDefaultAsync();
+           return await mBcollection.Find(x => x.Id == id).FirstOrDefaultAsync();
         }
 
-        public async Task UpdateFoodDetails(string id,Foods food)
+        public async Task UpdatemovieTicketDetails(string id,MovieTicket movieTicket)
         {
-            await foodcollection.ReplaceOneAsync(x => x.Id == id, food);
+            await mBcollection.ReplaceOneAsync(x => x.Id == id, movieTicket);
         }
 
-        public async Task DeleteFoodDetails(string id)
+        public async Task DeleteMovieDetails(string id)
         {
-            await foodcollection.DeleteOneAsync(x => x.Id == id);
+            await mBcollection.DeleteOneAsync(x => x.Id == id);
         }
 
     }
